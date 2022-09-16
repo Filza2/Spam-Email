@@ -1,5 +1,5 @@
-from requests import post
-import random,threading
+try:from requests import post;import random,threading
+except Exception as e:print(f'[!] Download The Missing Module ! , {e}');exit()
 print("""
 ███████╗██████╗       ███████╗███╗   ███╗
 ██╔════╝██╔══██╗      ██╔════╝████╗ ████║
